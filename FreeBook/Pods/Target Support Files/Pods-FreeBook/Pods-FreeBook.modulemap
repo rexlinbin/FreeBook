@@ -1,0 +1,6 @@
+framework module Pods_FreeBook {
+  umbrella header "Pods-FreeBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
