@@ -16,6 +16,7 @@
 		847C2E971F66748700794E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847C2E951F66748700794E5D /* LaunchScreen.storyboard */; };
 		847C2EA21F66748700794E5D /* FreeBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C2EA11F66748700794E5D /* FreeBookTests.swift */; };
 		847C2EAD1F66748700794E5D /* FreeBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C2EAC1F66748700794E5D /* FreeBookUITests.swift */; };
+		847C2EBB1F66755C00794E5D /* MyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C2EBA1F66755C00794E5D /* MyApi.swift */; };
 		F1380CC3E6C616C487387297 /* Pods_FreeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9C5F34E44022144CA53660 /* Pods_FreeBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		847C2EA81F66748700794E5D /* FreeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847C2EAC1F66748700794E5D /* FreeBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeBookUITests.swift; sourceTree = "<group>"; };
 		847C2EAE1F66748700794E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847C2EBA1F66755C00794E5D /* MyApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApi.swift; sourceTree = "<group>"; };
 		99788A66D328E8CA7F817B99 /* Pods-FreeBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeBookUITests/Pods-FreeBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8E195C44CE95258E8D72644 /* Pods_FreeBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA079C6D55CD980CF938332 /* Pods_FreeBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				847C2E931F66748700794E5D /* Assets.xcassets */,
 				847C2E951F66748700794E5D /* LaunchScreen.storyboard */,
 				847C2E981F66748700794E5D /* Info.plist */,
+				847C2EBA1F66755C00794E5D /* MyApi.swift */,
 			);
 			path = FreeBook;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847C2EBB1F66755C00794E5D /* MyApi.swift in Sources */,
 				847C2E8F1F66748700794E5D /* ViewController.swift in Sources */,
 				847C2E8D1F66748700794E5D /* AppDelegate.swift in Sources */,
 			);
@@ -724,6 +728,7 @@
 				847C2EB31F66748700794E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847C2EB41F66748700794E5D /* Build configuration list for PBXNativeTarget "FreeBookTests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +737,7 @@
 				847C2EB61F66748700794E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847C2EB71F66748700794E5D /* Build configuration list for PBXNativeTarget "FreeBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +746,7 @@
 				847C2EB91F66748700794E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
